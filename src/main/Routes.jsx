@@ -6,9 +6,9 @@ import UserCrud from '../components/user/UserCrud'
 export default props => {
     return (
         <Switch>
-            <Route exact path='/' component={Home}></Route>
+            <Route exact path='/spa-host' component={Home}></Route>
             <Route path='/users' component={UserCrud}></Route>
-            <Redirect from='*' to='/'></Redirect>
+            <Redirect from='*' to='/spa-host'></Redirect>
         </Switch>
     )
 }
