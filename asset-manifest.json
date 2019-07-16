@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/spa-host/static/css/main.9c7d27e8.chunk.css",
-    "main.js": "/spa-host/static/js/main.305145c8.chunk.js",
-    "main.js.map": "/spa-host/static/js/main.305145c8.chunk.js.map",
+    "main.js": "/spa-host/static/js/main.f3ce7dfd.chunk.js",
+    "main.js.map": "/spa-host/static/js/main.f3ce7dfd.chunk.js.map",
     "runtime~main.js": "/spa-host/static/js/runtime~main.04e5f6a8.js",
     "runtime~main.js.map": "/spa-host/static/js/runtime~main.04e5f6a8.js.map",
     "static/css/2.5fd700b8.chunk.css": "/spa-host/static/css/2.5fd700b8.chunk.css",
     "static/js/2.d3f20189.chunk.js": "/spa-host/static/js/2.d3f20189.chunk.js",
     "static/js/2.d3f20189.chunk.js.map": "/spa-host/static/js/2.d3f20189.chunk.js.map",
     "index.html": "/spa-host/index.html",
-    "precache-manifest.e552f8cb0ffecba0c627edcde13dcb2c.js": "/spa-host/precache-manifest.e552f8cb0ffecba0c627edcde13dcb2c.js",
+    "precache-manifest.2088c2bc659a021633ca4a7d0ae8fb81.js": "/spa-host/precache-manifest.2088c2bc659a021633ca4a7d0ae8fb81.js",
     "service-worker.js": "/spa-host/service-worker.js",
     "static/css/2.5fd700b8.chunk.css.map": "/spa-host/static/css/2.5fd700b8.chunk.css.map",
     "static/css/main.9c7d27e8.chunk.css.map": "/spa-host/static/css/main.9c7d27e8.chunk.css.map",
