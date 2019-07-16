@@ -12,9 +12,9 @@
     "react-router-dom": "4.2.2",
     "react-scripts": "3.0.1"
   },
-  "homepage": "http://jeancrus.github.io/spa-host",
+  "homepage": "https://jeancrus.github.io/spa-host",
   "scripts": {
-    "predeploy": "yarn run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

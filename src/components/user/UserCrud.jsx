@@ -8,7 +8,7 @@ const headerProps = {
     subtitle: 'Cadastro de usuários: Incluir, Listar, Alterar e Excluir'
 }
 
-const baseUrl = 'http://localhost:3001/users'
+const baseUrl = 'https://json-teste-jean.herokuapp.com/users'
 const initialState = {
     user: { name: '', email: '' },
     list: []
@@ -40,9 +40,9 @@ export default class UserCrud extends Component {
             })
     }
 
-    getUpdatedList(user) {
+    getUpdatedList(user, add = true) {
         const list = this.state.list.filter(u => u.id !== user.id)
-        if (user) list.unshift(user)
+        if (add) list.unshift(user)
         return list
     }
 
@@ -103,16 +103,17 @@ export default class UserCrud extends Component {
 
     remove(user) {
         axios.delete(`${baseUrl}/${user.id}`).then(resp => {
-            const list = this.getUpdatedList(null)
+            const list = this.getUpdatedList(user, false)
             this.setState({ list })
         })
     }
 
     renderTable() {
         return (
-            <table className="table mt-4">
-                <thead>
+            <table className="table mt-4 table-striped">
+                <thead className="thead-dark">
                     <tr>
+                        <th>ID</th>
                         <th>Nome</th>
                         <th>E-mail</th>
                         <th>Ações</th>
@@ -125,12 +126,31 @@ export default class UserCrud extends Component {
         )
     }
 
-    
+    renderRows() {
+        return this.state.list.map(user => {
+            return (
+                <tr key={user.id}>
+                    <th>{user.id}</th>
+                    <td>{user.name}</td>
+                    <td>{user.email}</td>
+                    <td>
+                        <button className="btn btn-warning" onClick={e => this.load(user)}>
+                            <i className="fa fa-pencil"></i>
+                        </button>
+                        <button className="btn btn-danger ml-sm-2" onClick={e => this.remove(user)}>
+                            <i className="fa fa-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+            )
+        })
+    }
 
     render() {
         return (
             <Main {...headerProps}>
                 {this.renderForm()}
+                {this.renderTable()}
             </Main>
         )
     }

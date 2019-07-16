@@ -2,17 +2,9 @@ import React from 'react'
 import Main from '../template/Main'
 
 export default props =>
-    <Main icon="home" title="Início" subtitle="Projeto SPA">
-        <div className="display-4">Bem vindo!</div>
+    <Main icon="home" title="Início" subtitle="Desenvolvido no curso de web moderno oferico pela Cod3r">
+        <div className="display-4">Bem vindo ao meu portfólio!</div>
         <hr />
-        <p className="mb-0">Sistema de uma SPA(Single Page Application) desenvolvido
-         para portfólio com ajuda do curso Cod3r! <br />
-            <strong>Tecnologias utilizadas: <br />
-                Boostrap 4 <br />
-                React.js <br />
-                Gh pages <br />
-                Axios <br />
-                React router <br />
-            </strong>
-        </p>
+        <p className="mb-0">Projeto SPA(Single Page Application) para exemplificar a construção de um cadastro
+            desenvolvido em REACT! Auxiliado pelo curso Cod3r e feito por mim =D by: Jean Crus</p>
     </Main>
