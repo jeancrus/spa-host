@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/spa-host/static/css/main.9c7d27e8.chunk.css",
-    "main.js": "/spa-host/static/js/main.5a198c3d.chunk.js",
-    "main.js.map": "/spa-host/static/js/main.5a198c3d.chunk.js.map",
+    "main.js": "/spa-host/static/js/main.fc4617e2.chunk.js",
+    "main.js.map": "/spa-host/static/js/main.fc4617e2.chunk.js.map",
     "runtime~main.js": "/spa-host/static/js/runtime~main.04e5f6a8.js",
     "runtime~main.js.map": "/spa-host/static/js/runtime~main.04e5f6a8.js.map",
     "static/css/2.5fd700b8.chunk.css": "/spa-host/static/css/2.5fd700b8.chunk.css",
     "static/js/2.d3f20189.chunk.js": "/spa-host/static/js/2.d3f20189.chunk.js",
     "static/js/2.d3f20189.chunk.js.map": "/spa-host/static/js/2.d3f20189.chunk.js.map",
     "index.html": "/spa-host/index.html",
-    "precache-manifest.3ef8ba45399b2ecf6bcc16b4deea76b4.js": "/spa-host/precache-manifest.3ef8ba45399b2ecf6bcc16b4deea76b4.js",
+    "precache-manifest.fd0527d967d00694b517a38e0c45eeae.js": "/spa-host/precache-manifest.fd0527d967d00694b517a38e0c45eeae.js",
     "service-worker.js": "/spa-host/service-worker.js",
     "static/css/2.5fd700b8.chunk.css.map": "/spa-host/static/css/2.5fd700b8.chunk.css.map",
     "static/css/main.9c7d27e8.chunk.css.map": "/spa-host/static/css/main.9c7d27e8.chunk.css.map",
