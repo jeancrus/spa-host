@@ -7,6 +7,8 @@ export default props => {
             Desenvolvido com <i className="fa fa-heart text-danger"></i>&ensp;
             por
             <strong>&ensp;Cod<span className="text-danger">3</span>r</strong>
+            e
+            <strong>&ensp;Jean<span className="text-danger">Crus</span>r</strong>
         </span>
     </footer>
 }
